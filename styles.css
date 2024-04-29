@@ -80,13 +80,15 @@ a {
 
 }
 
-.notifications img {
+img {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
     border-radius: 50%;
 
 }
+
+
 
 .main-content {
     background-color: #f4f4f4;
