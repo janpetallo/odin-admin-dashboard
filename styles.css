@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #0d9488;
+}
+
 body {
     margin: 0;
     
@@ -7,7 +11,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 
 }
 
@@ -16,16 +20,17 @@ a {
     color: white;
 }
 
-.link {
-    width:fit-content
-}
+
 
 svg {
     fill: white;
+    margin-right: 0.8rem;
+
+    
 }
 
 .sidebar {
-    background-color: #0d9488;
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
 
@@ -34,11 +39,41 @@ svg {
 
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: larger;
+
+
+    svg {
+        fill: white;
+        
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.nav-links {
+    margin-bottom: 2rem;
 }
 
 .header {
-    background-color: blue;
-    color: white;
+    background-color: #f0fdfa;
+    
     padding: 1rem;
 
     grid-column: 2;
