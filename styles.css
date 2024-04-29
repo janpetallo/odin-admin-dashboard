@@ -181,7 +181,43 @@ img {
     background-color: aqua;
 
     grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    
+
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    
+
+}
+
+.project {
+    background-color:beige;
+
+}
+
+.project-info {
+    
+
+}
+
+.project-actions {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.project-actions svg {
+        height: 25px;
+        width: 25px;
+    
+}
+
 
 .announcements {
     background-color: aquamarine;
