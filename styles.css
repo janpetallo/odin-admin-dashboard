@@ -131,9 +131,11 @@ img:hover {
     justify-content: flex-end;
     align-items: center;
 
-    svg {
-        margin-right: 1rem;
-    }
+    
+}
+
+.first-layer .notifications svg {
+    margin-right: 1rem;
 }
 
 .second-layer {
@@ -146,13 +148,15 @@ img:hover {
     justify-content: flex-start;
     align-items: center;
 
-    .text-info div:nth-child(1) {
-        font-size: 0.8rem;
-    }
+    
+}
 
-    .text-info div:nth-child(2) {
-        font-size: 1rem;
-    }
+.second-layer .user-info .text-info div:nth-child(1) {
+    font-size: 0.8rem;
+}
+
+.second-layer .user-info .text-info div:nth-child(2) {
+    font-size: 1rem;
 }
 
 .second-layer .user-actions {
