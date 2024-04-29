@@ -179,7 +179,7 @@ img {
 }
 
 .your-projects {
-    background-color: aqua;
+    gap: 0.5rem;
 
     grid-row: 1 / span 2;
     display: flex;
@@ -198,7 +198,7 @@ img {
 }
 
 .project {
-    background-color:beige;
+    background-color:white;
 
     font-size: 0.9rem;
     padding: 1rem;
@@ -209,7 +209,7 @@ img {
 }
 
 .project-info {
-    
+    margin-bottom: 1rem;
 
 }
 
@@ -235,6 +235,8 @@ img {
 
 .announcements {
     background-color: aquamarine;
+
+
 }
 
 .trending {
