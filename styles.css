@@ -12,6 +12,7 @@ body {
 
 .container {
     height: 100vh;
+    width: 100v;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
@@ -43,9 +44,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
-    position: fixed;
-    height: 100vh;
 }
 
 .logo {
@@ -87,6 +85,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 
 
 }
